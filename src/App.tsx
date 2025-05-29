@@ -1,9 +1,19 @@
 import './App.css'
+import MultiStepForm from './components/FormSteps/multiStepForm'
+import Navbar from './components/Navbar/Navbar'
+
 
 function App() {
 
   return (
-    <h1>Assigment 11</h1>
+    <main>
+    <Navbar
+      navSteps={[]}
+      onStepclick={() => {}}
+      currentStepIndex={0}
+    />
+    <MultiStepForm/>
+    </main>
   )
 }
 
