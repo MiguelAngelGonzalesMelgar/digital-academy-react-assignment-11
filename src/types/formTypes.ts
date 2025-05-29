@@ -1,4 +1,3 @@
-
 export interface PersonalInfoForm {
   name: string;
   age: number;
@@ -12,9 +11,9 @@ export interface AddressForm {
 }
 
 export interface PreferencesForm {
-  contactMethod: "email" | "phone" | "whatsApp";
+  contactMethod: "email" | "phone" | "whatsapp";
   subscribeNewsletter: boolean;
-  favoriteCategory: "technology" | "health" | "art" | "travel" | ""
+  favoriteCategory: "technology" | "health" | "art" | "travel" | "";
 }
 
 export interface FormData {
